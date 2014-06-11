@@ -8,3 +8,13 @@ C:\Users\WB122\Documents\GitHub\CCTB-345\Code First From Database\NorthwindSyste
 C:\Users\WB122\Documents\GitHub\CCTB-345\Code First From Database\NorthwindSystem\obj\Debug\NorthwindSystem.csprojResolveAssemblyReference.cache
 C:\Users\WB122\Documents\GitHub\CCTB-345\Code First From Database\NorthwindSystem\obj\Debug\NorthwindSystem.dll
 C:\Users\WB122\Documents\GitHub\CCTB-345\Code First From Database\NorthwindSystem\obj\Debug\NorthwindSystem.pdb
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\bin\Debug\NorthwindSystem.dll.config
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\bin\Debug\NorthwindSystem.dll
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\bin\Debug\NorthwindSystem.pdb
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\bin\Debug\EntityFramework.dll
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\bin\Debug\EntityFramework.xml
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\obj\Debug\NorthwindSystem.csprojResolveAssemblyReference.cache
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\obj\Debug\NorthwindSystem.dll
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\NorthwindSystem\obj\Debug\NorthwindSystem.pdb
