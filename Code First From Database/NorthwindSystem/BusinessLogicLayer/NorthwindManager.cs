@@ -27,6 +27,9 @@ namespace NorthwindSystem.BusinessLogicLayer
             using (var context = new NWContext())
             {
                 return context.Shippers.ToList();
+                
+                //var result = context.Regions.Include(item => item.Territories).OrderBy(item => item.RegionDescription);
+                //return result.ToList();
             }
         }
 
@@ -121,6 +124,7 @@ namespace NorthwindSystem.BusinessLogicLayer
         }
 
         #endregion
+
         #region Legacy Code - GetEmployees, GetOrders, GetRegions
         public List<Employee> GetEmployees()
         {

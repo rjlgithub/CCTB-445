@@ -26,7 +26,9 @@ C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\bin
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\bin\Debug\EntityFramework.xml
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
-C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmForm1.resources
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmViewRegions.resources
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cache
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmMainForm.resources
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmAboutApp.resources
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmViewShippers.resources

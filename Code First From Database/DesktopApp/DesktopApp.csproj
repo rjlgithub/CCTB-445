@@ -51,25 +51,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fmAboutApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmAboutApp.Designer.cs">
+      <DependentUpon>fmAboutApp.cs</DependentUpon>
+    </Compile>
     <Compile Include="fmViewRegions.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fmViewRegions.Designer.cs">
       <DependentUpon>fmViewRegions.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmForm1.cs">
+    <Compile Include="fmMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmForm1.Designer.cs">
-      <DependentUpon>fmForm1.cs</DependentUpon>
+    <Compile Include="fmMainForm.Designer.cs">
+      <DependentUpon>fmMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmViewShippers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmViewShippers.Designer.cs">
+      <DependentUpon>fmViewShippers.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fmForm1.resx">
-      <DependentUpon>fmForm1.cs</DependentUpon>
+    <EmbeddedResource Include="fmAboutApp.resx">
+      <DependentUpon>fmAboutApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMainForm.resx">
+      <DependentUpon>fmMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fmViewRegions.resx">
       <DependentUpon>fmViewRegions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmViewShippers.resx">
+      <DependentUpon>fmViewShippers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +97,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -99,6 +118,9 @@
       <Project>{a01ab920-b2da-4cc0-9f6c-f177723a0773}</Project>
       <Name>NorthwindSystem</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NW-Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
