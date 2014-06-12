@@ -1,4 +1,4 @@
-﻿using NorthwindSystem.DAL;
+﻿using NorthwindSystem.DataAccessLayer;
 using NorthwindSystem.Entities;
 using NorthWindSystem.Entities.POCOS;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NorthwindSystem.BLL
+namespace NorthwindSystem.BusinessLogicLayer
 {
     public partial class NorthwindManager
     {

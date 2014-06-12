@@ -32,3 +32,6 @@ C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmMainForm.resources
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmAboutApp.resources
 C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.fmViewShippers.resources
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\DesktopApp.Reports.fmProductSalesForm.resources
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\RdlCompile.cache
+C:\Users\WB122\Documents\GitHub\CCTB-445\Code First From Database\DesktopApp\obj\Debug\RdlCompile.compiled

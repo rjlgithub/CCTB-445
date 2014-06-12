@@ -48,8 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessLogicLayer\NorthwindManager-RegionTerritory.cs" />
-    <Compile Include="BusinessLogicLayer\NorthwindManager-Reports.cs" />
+    <Compile Include="BusinessLogicLayer\NorthwindManager-RegionTerritory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessLogicLayer\NorthwindManager-Reports.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BusinessLogicLayer\NorthwindManager.cs" />
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Customer.cs" />
