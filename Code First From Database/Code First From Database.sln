@@ -7,6 +7,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopApp", "DesktopApp\De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindSystem.Requirements", "NorthwindSystem.Requirements\NorthwindSystem.Requirements.csproj", "{522205CD-83CD-49A4-899A-FB763D723AED}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "http://localhost:12345", "{CD1FA10A-D0F7-4B9F-9F1A-8EB58D9CA569}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{a01ab920-b2da-4cc0-9f6c-f177723a0773}|NorthwindSystem.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Website"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Website\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Website"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Website\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Website\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +47,10 @@ Global
 		{522205CD-83CD-49A4-899A-FB763D723AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522205CD-83CD-49A4-899A-FB763D723AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522205CD-83CD-49A4-899A-FB763D723AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1FA10A-D0F7-4B9F-9F1A-8EB58D9CA569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1FA10A-D0F7-4B9F-9F1A-8EB58D9CA569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1FA10A-D0F7-4B9F-9F1A-8EB58D9CA569}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1FA10A-D0F7-4B9F-9F1A-8EB58D9CA569}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
