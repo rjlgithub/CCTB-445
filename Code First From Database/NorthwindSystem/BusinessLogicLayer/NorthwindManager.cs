@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace NorthwindSystem.BusinessLogicLayer
 {
     //This is the primary public access into the NorthwindSystem data
-    public class NorthwindManager
+    public partial class NorthwindManager
     {
         #region Shippers
 

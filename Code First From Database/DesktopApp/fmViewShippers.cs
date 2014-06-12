@@ -140,6 +140,18 @@ namespace DesktopApp
 
         private void btnClearShippersForm_Click(object sender, EventArgs e)
         {
+            try
+            {
+                cboShippers.SelectedIndex = 0;
+                tboShipperID.Text = "";
+                tboCompanyName.Text = "";
+                tboPhone.Text = "";
+            }
+            catch (Exception ex)
+            {
+                //TODO: Log the exception
+                MessageBox.Show(ex.Message);
+            }
 
         }
 

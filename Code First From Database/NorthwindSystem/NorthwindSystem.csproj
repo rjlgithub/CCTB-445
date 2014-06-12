@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogicLayer\NorthwindManager-RegionTerritory.cs" />
+    <Compile Include="BusinessLogicLayer\NorthwindManager-Reports.cs" />
     <Compile Include="BusinessLogicLayer\NorthwindManager.cs" />
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Customer.cs" />
@@ -56,6 +58,8 @@
     <Compile Include="DataAccessLayer\NWContext.cs" />
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Entities\Order_Detail.cs" />
+    <Compile Include="Entities\POCOs\CustomerOrderSummary.cs" />
+    <Compile Include="Entities\POCOs\ProductSaleSummary.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Region.cs" />
     <Compile Include="Entities\Shipper.cs" />
