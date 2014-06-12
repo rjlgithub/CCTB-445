@@ -134,6 +134,7 @@ namespace DesktopApp
             catch (Exception ex)
             {
                 //TODO: Log the exception
+                Program.LogMessage(ex.Message);
                 MessageBox.Show(ex.Message);
             }
         }
