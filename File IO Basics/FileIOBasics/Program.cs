@@ -11,6 +11,23 @@ namespace FileIOBasics
     {
         static void Main(string[] args)
         {
+            //Array of ints
+            int[] values = { 5, 12, 5, 9, 1, 3, 0, 187, 42, 8 };
+
+            //Query syntax of LINQ
+            var sorted = from item in values
+                         orderby item
+                         select item;
+
+            //sorted = valus.OrderBy(x => x);  //Method syntax of LINQ
+
+            Console.Write("An ordered array of ints: ");
+            foreach (int thing in sorted)
+                Console.Write(thing + ",");
+            Console.WriteLine();
+            Console.WriteLine();
+                
+
             ReadFile("");
         }
 
